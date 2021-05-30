@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- <suite thread-count="2" parallel="methods" name="Parts"> -->
+<suite name="TestSuite" >
+
+		
+	<parameter name="Environment"
+		value="src/main/resources/prod/testprod.properties" />
+
+	<test name="Sample">
+
+		
+  <!--  <groups> <run> <include name="Sample" /> </run> </groups>   -->
+
+	<!--  <classes> <class name="com.api.test.reqres.testcases.PostAPI01" /> </classes>  -->    
+
+  <packages>
+			<package name="com.api.test.reqres.testcases" />
+		</packages>    
+	</test>
+</suite> <!-- Suite -->

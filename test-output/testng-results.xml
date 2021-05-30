@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="3938" started-at="2021-05-30T07:42:56Z" finished-at="2021-05-30T07:43:00Z">
+    <groups>
+    </groups>
+    <test name="Sample" duration-ms="3938" started-at="2021-05-30T07:42:56Z" finished-at="2021-05-30T07:43:00Z">
+      <class name="com.api.test.reqres.testcases.PostAPI01">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.api.test.reqres.testcases.PostAPI01@954b04f]" name="setUp" is-config="true" duration-ms="113" started-at="2021-05-30T07:42:56Z" finished-at="2021-05-30T07:42:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[src/main/resources/prod/testprod.properties]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.api.test.reqres.testcases.PostAPI01.verifyPostAPI() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyPostAPI()[pri:0, instance:com.api.test.reqres.testcases.PostAPI01@954b04f]" name="verifyPostAPI" duration-ms="1933" started-at="2021-05-30T07:42:56Z" finished-at="2021-05-30T07:42:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPostAPI -->
+        <test-method status="PASS" signature="closeTheBrowser()[pri:0, instance:com.api.test.reqres.testcases.PostAPI01@954b04f]" name="closeTheBrowser" is-config="true" duration-ms="204" started-at="2021-05-30T07:42:58Z" finished-at="2021-05-30T07:42:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- com.api.test.reqres.testcases.PostAPI01 -->
+      <class name="com.api.test.reqres.testcases.GetAPI">
+        <test-method status="PASS" signature="getAPI()[pri:0, instance:com.api.test.reqres.testcases.GetAPI@149494d8]" name="getAPI" duration-ms="533" started-at="2021-05-30T07:42:59Z" finished-at="2021-05-30T07:42:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPI -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.api.test.reqres.testcases.GetAPI@149494d8]" name="setUp" is-config="true" duration-ms="0" started-at="2021-05-30T07:42:59Z" finished-at="2021-05-30T07:42:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[src/main/resources/prod/testprod.properties]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.api.test.reqres.testcases.GetAPI.getAPI() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="closeTheBrowser()[pri:0, instance:com.api.test.reqres.testcases.GetAPI@149494d8]" name="closeTheBrowser" is-config="true" duration-ms="27" started-at="2021-05-30T07:42:59Z" finished-at="2021-05-30T07:42:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- com.api.test.reqres.testcases.GetAPI -->
+      <class name="com.api.test.reqres.testcases.DeleteAPI">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.api.test.reqres.testcases.DeleteAPI@710726a3]" name="setUp" is-config="true" duration-ms="0" started-at="2021-05-30T07:42:59Z" finished-at="2021-05-30T07:42:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[src/main/resources/prod/testprod.properties]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.api.test.reqres.testcases.DeleteAPI.verifyDeleteAPI() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyDeleteAPI()[pri:0, instance:com.api.test.reqres.testcases.DeleteAPI@710726a3]" name="verifyDeleteAPI" duration-ms="1073" started-at="2021-05-30T07:42:59Z" finished-at="2021-05-30T07:43:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDeleteAPI -->
+        <test-method status="PASS" signature="closeTheBrowser()[pri:0, instance:com.api.test.reqres.testcases.DeleteAPI@710726a3]" name="closeTheBrowser" is-config="true" duration-ms="35" started-at="2021-05-30T07:43:00Z" finished-at="2021-05-30T07:43:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- com.api.test.reqres.testcases.DeleteAPI -->
+    </test> <!-- Sample -->
+  </suite> <!-- TestSuite -->
+</testng-results>

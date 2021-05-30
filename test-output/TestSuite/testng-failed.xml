@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]">
+  <parameter name="Environment" value="src/main/resources/prod/testprod.properties"/>
+  <test thread-count="5" name="Sample(failed)">
+    <classes>
+      <class name="com.api.test.reqres.testcases.PostAPI01">
+        <methods>
+          <include name="closeTheBrowser"/>
+          <include name="setUp"/>
+          <include name="verifyPostAPI"/>
+        </methods>
+      </class> <!-- com.api.test.reqres.testcases.PostAPI01 -->
+    </classes>
+  </test> <!-- Sample(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
