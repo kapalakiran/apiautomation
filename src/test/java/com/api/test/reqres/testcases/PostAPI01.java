@@ -14,7 +14,7 @@ public class PostAPI01 extends BaseFunctions{
 	
 
 	@Test(enabled=true)
-	public void verifyPostAPI() throws IOException {
+	public void verifyPostCreateUsersAPI() throws IOException {
 		RestAssured.baseURI = getProperty("BaseURL");
 		
 		 Response response = RestAssured.given().body("{\n" + 

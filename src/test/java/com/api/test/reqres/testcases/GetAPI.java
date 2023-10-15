@@ -13,7 +13,7 @@ import io.restassured.RestAssured;
 public class GetAPI extends BaseFunctions{
 
 	@Test
-	public void getAPI() throws IOException {
+	public void verifyGetListUsers() throws IOException {
 		RestAssured.baseURI = getProperty("BaseURL") ;
 
 		 Response res = RestAssured.given().param("page", "2").get(EndPoints.getListUsers);

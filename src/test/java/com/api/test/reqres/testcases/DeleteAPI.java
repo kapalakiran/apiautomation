@@ -13,8 +13,8 @@ import io.restassured.response.Response;
 public class DeleteAPI extends BaseFunctions{
 
 	@Test
-	public void verifyDeleteAPI() throws IOException {
-		
+	public void verifyDeleteListUsers() throws IOException {
+		logInfo("To delete a record");
 		RestAssured.baseURI = getProperty("BaseURL");
 		Response response = RestAssured.given().params("users", "2").delete(EndPoints.deleteListUsers).thenReturn();
 		if(response.getStatusCode()==204) 
